@@ -1,0 +1,13 @@
+
+@import "variables.less";
+@import "mixins.less";
+
+
+.items-list {
+    @include make-row();     
+    .item 
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+        @include make-md-column(4);
+    }
+}
