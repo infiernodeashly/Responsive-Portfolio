@@ -7,33 +7,27 @@ body {
     }
 
     
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    
-    }
+img {
+  margin: 5px;
+  padding: 5px;
+}
 
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      
+    }    
 
 
 .navbar-brand {
   background-color: teal; 
   color: white;
 }
-    /* Add a black background color to the top navigation */
+  .navbar {background-color: white;}
+  
+  /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -67,7 +61,7 @@ body {
   text-align: right;
 }
 
-.navbar {background-color: white;}
+
 
 .footer {
   height: 50px;
@@ -85,31 +79,47 @@ body {
 
 
 
-label {
-  font-weight: bold;
-  font-size: 16px;
-}
 
-#submit_button {
-  background-color: #B22222;
-  height: 30px;
-  width: 20%;
-  color: #FFFFFF;
-  font-weight: bold;
-}
 
-input, textarea {
-  background-color: #D3D3D3;
-  color: #2F4F4F;
-  width: 250px;
-  margin-bottom: 10px;
-  box-shadow: 5px 5px 2px 2px #696969;
-}
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
   
-}
+  }
+
+  label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  #submit_button {
+    background-color: #B22222;
+    height: 30px;
+    width: 20%;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    background-color: #D3D3D3;
+    color: #2F4F4F;
+    width: 250px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px 2px #696969;
+  }
