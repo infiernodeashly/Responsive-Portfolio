@@ -10,6 +10,8 @@ body {
 img {
   margin: 5px;
   padding: 5px;
+  height: 100%;
+  width: 100%;
 }
 
     .container {
@@ -20,6 +22,25 @@ img {
       
     }    
 
+    li {
+      padding: 0; 
+      margin-bottom: 0;
+      line-height: 1rem;
+      
+    }
+
+      .divboarder {
+        border: 1px solid; 
+        color: lightgrey; 
+      }
+
+    p {
+      color: black;
+    }
+    
+    #ph {
+      font-weight: bold;
+    }
 
 .navbar-brand {
   background-color: teal; 
