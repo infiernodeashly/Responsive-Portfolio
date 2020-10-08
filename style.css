@@ -1,9 +1,16 @@
 
 body {
-    background-color: beige; margin-bottom: 60px;}
+    background-color: #f3f0f5; 
+    margin-bottom: 60px;
+  }
 
     h1 {
-      color: teal;
+      color: #601f9c; 
+    }
+
+    h2 {
+      color: #601f9c;
+      font-size: 20px;
     }
 
     
@@ -78,7 +85,7 @@ img {
     }
 
 .navbar-brand {
-  background-color: teal; 
+  /* background-color: teal;  */
   color: white;
 }
   .navbar {background-color: white;}
@@ -121,14 +128,14 @@ img {
 
 .footer {
   height: 50px;
-  background-color: grey;
+  background-color:lightgray;
   width: 100%;
   position: fixed;
   left: 0; bottom: 0;
   padding: 5px;
   text-align: center;
-  border-top: 2px solid teal; 
-  color: teal;
+  border-top: 2px solid  #601f9c; 
+  color:  #601f9c;
 }
 
 /* label */
